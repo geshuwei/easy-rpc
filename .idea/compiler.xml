@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="client-examples" />
+        <module name="common" />
+        <module name="common-interface" />
+        <module name="server" />
+        <module name="server-examples" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asdfasd" target="1.5" />
+      <module name="client" target="1.8" />
+      <module name="client-examples" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-interface" target="1.8" />
+      <module name="easy-rpc" target="1.8" />
+      <module name="examples" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="server-examples" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: easy-rpc-client-example
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.26.15.154:7001/eureka/
+  instance:
+    hostname: localhost
