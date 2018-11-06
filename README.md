@@ -13,7 +13,7 @@
 </dependency>
 ```
 2、使用` @Import(EasyRpcServerAutoConfiguration.class)`注解引入配置  
-3、定义一个接口继承`EasyRpcService`接口。
+3、定义一个接口继承`EasyRpcService`接口。  
 4、实现这个接口，实现类必须是管理的bean，不然会找不到服务。  
   
 *example：*
